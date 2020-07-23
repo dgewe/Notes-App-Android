@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="folder"
+            type="com.fredrikbogg.notesapp.data.db.entity.Folder" />
+
+        <variable
+            name="viewmodel"
+            type="com.fredrikbogg.notesapp.ui.main.MainFoldersViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="@{() -> viewmodel.folderSelected(folder)}"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:drawableStart="@drawable/ic_baseline_folder_24"
+            android:drawablePadding="20dp"
+            android:drawableTint="?attr/colorAccent"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@{folder.title}"
+            android:textSize="14sp"
+            tools:text="Title" />
+    </LinearLayout>
+</layout>

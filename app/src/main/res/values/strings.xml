@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="menu_delete_all_notes">Delete all notes</string>
+    <string name="menu_logo">Menu logo</string>
+    <string name="theme">Theme</string>
+    <string name="title">Title</string>
+    <string name="create_folder">Create folder</string>
+    <string name="folders">Folders</string>
+    <string name="delete_note">Delete note</string>
+    <string name="share">Share</string>
+    <string name="default_theme">Default</string>
+    <string name="general">General</string>
+    <string name="notes">Notes</string>
+    <string name="delete_folder">Delete folder</string>
+    <string name="rename_folder">Rename folder</string>
+    <string name="dark_blue">Dark/Blue</string>
+    <string name="dark_red">Dark/Red</string>
+    <string name="dots">…</string>
+</resources>
