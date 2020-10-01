@@ -27,17 +27,17 @@ Model-View-ViewModel (MVVM)
 
 ## Screenshots
 
-### Main | Notes
+### Main | Notes | Edit
 
 <p align = "left" >
   <img width="270" height="585" src="github_pictures/main.png">
   <img width="270" height="585" src="github_pictures/notes.png">
+  <img width="270" height="585" src="github_pictures/edit.png">
 </p>
 
-### Edit | Themes
+### Themes
 
 <p align = "left" >
-  <img width="270" height="585" src="github_pictures/edit.png">
   <img width="270" height="585" src="github_pictures/themes.gif">
 </p>
 
