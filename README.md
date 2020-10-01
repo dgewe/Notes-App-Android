@@ -26,24 +26,20 @@ Model-View-ViewModel (MVVM)
 - Themes: Change between 3 different themes
 
 ## Screenshots
-<table>
-<thead>
-<tr>
-<th align="center">Main</th>
-<th align="center">Notes</th>
-<th align="center">Edit</th>
-<th align="center">Themes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> <img src="github_pictures/main.png"></td>
-<td> <img src="github_pictures/notes.png"></td>
-<td> <img src="github_pictures/edit.png"></td>
-<td> <img src="github_pictures/themes.gif"></td>
-</tr>
-</tbody>
-</table>
+
+### Main | Notes
+
+<p align = "left" >
+  <img width="270" height="585" src="github_pictures/main.png">
+  <img width="270" height="585" src="github_pictures/notes.png">
+</p>
+
+### Edit | Themes
+
+<p align = "left" >
+  <img width="270" height="585" src="github_pictures/edit.png">
+  <img width="270" height="585" src="github_pictures/themes.gif">
+</p>
 
 ## Setup
 #### Requirements
